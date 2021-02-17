@@ -1,7 +1,7 @@
-import childProcess from 'child_process';
-import test from 'ava';
-import alfyTest from 'alfy-test';
-import getPort from 'get-port';
+const test = require('ava');
+const alfyTest = require('alfy-test');
+const childProcess = require('child_process');
+const getPort = require('get-port');
 
 test('search by name', async t => {
 	const alfy = alfyTest();
